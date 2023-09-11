@@ -1,9 +1,9 @@
 {
-  "name": "boilerplate-react-api",
+  "name": "job",
   "version": "0.2.3",
-  "description": "A webpack React starter",
-  "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
-  "author": "Dev Academy Aotearoa",
+  "description": "A job-seeking manager application",
+  "repository": "https://github.com/lauren-lancaster/job",
+  "author": "Job Team",
   "license": "ISC",
   "scripts": {
     "dev": "run-p dev:client dev:server",
