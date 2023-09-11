@@ -67,3 +67,6 @@ bundle.*
 dev.sqlite3
 
 tags
+
+# FireBase creds
+/server/db/creds.json
