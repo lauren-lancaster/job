@@ -28,7 +28,9 @@
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "firebase": "^10.3.1",
+    "firebase-admin": "^11.10.1"
   },
   "devDependencies": {
     "@devacademy/eslint-config": "^1.8.0",
