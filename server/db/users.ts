@@ -11,10 +11,14 @@ export async function addUser(user: object) {
 }
 
 export async function getUserSkillset(id: string) {
-  const doc = await db.collection('users').doc(id).get()
-  return doc.user_skillset
+  const doc = await db.collection('users').doc(id).collection('user_skillset').get()
+  return doc
 }
 
-export async function addUserSkillset(skillset: string[], id: string) {
-  await db.collection('users').doc(id).update({user_skillset: skillset})
+export async function addUserSkillset(skillset: object, id: string) {
+  await db.collection('users').doc(id).collection('user_skillset').add(skillset)
+}
+
+export async function updateUserSkillSet(skillset: object, id: string) {
+  await db.collection('users').doc(id).collection('user_skillset').update(skillset)
 }
