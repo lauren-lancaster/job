@@ -1,0 +1,40 @@
+* {
+
+  font-family:  Verdana, sans-serif;
+
+}
+
+body {
+  background-color: white;
+  margin: 0 auto;
+}
+
+header {
+  background-size: cover;
+  background-position: center;
+  background-color: #BFDFDF;
+  width: 100%;
+  height:5vmin;
+  position: relative;
+  overflow: auto;
+  margin:0;
+  text-decoration: none;
+}
+
+header a {
+  float: left;
+  
+}
+
+
+
+
+a:link, a:visited  {
+  color: #000724;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #B80C09;
+}
+
