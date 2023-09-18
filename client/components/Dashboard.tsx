@@ -3,8 +3,13 @@ import { useState, useEffect } from 'react'
 function Dashboard() {
   return (
     <>
-      <header>JOB</header>
-      <h1>h1 tag</h1>
+      <header>
+        <p id="header-title">JOB</p>
+        {/* <div className="center"> */}
+        <a href="/search">Search</a>
+        <a href="/">Dashboard</a>
+        {/* </div> */}
+      </header>
     </>
   )
 }
